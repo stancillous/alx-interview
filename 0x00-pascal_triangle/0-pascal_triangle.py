@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def pascal_triangle(n):
+    """
+    function that returns a list of lists of integers
+    representing the pascal's triangle
+    """
 
     if n <= 0:
         return []
