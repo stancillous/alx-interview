@@ -12,7 +12,7 @@ def pascal_triangle(n):
 
         newArray = []
         newArray.append(1)  # first element
-        newArray[-1] = 1
+        # newArray[-1] = 1
 
         for j in range(1, lenTop):
             num = topArray[j - 1] + topArray[j]
