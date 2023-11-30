@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-# function that returns a list of lists of integers
-# representing the pascal's triangle
+"""function that returns a list of lists of integers
+representing the pascal's triangle"""
+
+
 def pascal_triangle(n):
     """
     function that returns a list of lists of integers
