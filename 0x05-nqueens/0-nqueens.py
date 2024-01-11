@@ -14,6 +14,7 @@ def generate_solutions(row, column):
 
 
 def place_queen(queen, column, prev_solution):
+    """all these four functions need documentations for hsake"""
     safe_position = []
     for array in prev_solution:
         for x in range(column):
