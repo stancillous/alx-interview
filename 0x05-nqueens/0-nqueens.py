@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""N queens"""
+"""N queens. Check if it is safe to place a queen on a given position in the chessboard.
+"""
 import sys
 
 
