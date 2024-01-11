@@ -6,6 +6,7 @@ import sys
 
 
 def generate_solutions(row, column):
+    """all these four functions need documentations for hsake"""
     solution = [[]]
     for queen in range(row):
         solution = place_queen(queen, column, solution)
@@ -22,6 +23,7 @@ def place_queen(queen, column, prev_solution):
 
 
 def is_safe(q, x, array):
+    """all these four functions need documentations for hsake"""
     if x in array:
         return (False)
     else:
@@ -30,6 +32,7 @@ def is_safe(q, x, array):
 
 
 def init():
+    """all these four functions need documentations for hsake"""
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
@@ -45,6 +48,7 @@ def init():
 
 
 def n_queens():
+    """all these four functions need documentations for hsake"""
 
     n = init()
     # generate all solutions
