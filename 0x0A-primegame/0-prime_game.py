@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 
 """PRIME GAME
 Determine who the winner of a game is
